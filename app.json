@@ -1,0 +1,42 @@
+{
+  "name": "Standort app",
+  "description": "",
+  "repository": "https://github.com/loleg/standortanalyse",
+  "logo": "https://github.com/streetwise/streetwise-app/raw/master/src/assets/streetwise_Logo.png",
+  "keywords": [],
+  "env": {
+    "FLASK_ENV": {
+      "description": "Flask Enviroment",
+      "value": "production"
+    },
+    "AIRTABLE_BASE": {
+      "description": "Airtable base ID"
+    },
+    "AIRTABLE_NAME": {
+      "description": "Table name"
+    },
+    "AIRTABLE_KEY": {
+      "description": "Airtable API key"
+    },
+    "AIRTABLE_LINK": {
+      "description": "Detailed view link"
+    },
+    "AIRTABLE_FORM": {
+      "description": "Add more form link"
+    },
+    "SORT_KEY": {
+      "description": "Field name to sort on"
+    },
+    "POPUP_FIELDS": {
+      "description": "Comma-delimited list of columns shown in popup"
+    },
+    "MAPBOX_KEY": {
+      "description": "Mapbox API key"
+    }
+   },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
