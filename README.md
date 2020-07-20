@@ -4,7 +4,7 @@ This is a web based visualization of location data in an Airtable, developed by 
 
 The underlying project can be used to publish any spreadsheet published on Airtable, provided it has the (not yet configurable) columns _Name, Adresse, Lat, Lon, Kategorie_ (for the legend), _Notizen_ (free text), and _Bilder_ (image attachments).
 
-![Screenshot](static/screenshotd.jpg)
+![Screenshot](static/screenshot.jpg)
 
 Points on the map for each row along with a details popup on tap are shown. Right clicking anywhere on the map shows the current latitude and longitude. A legend is automatically generated from the category field. A button, "Hinzufügen", links to an Airtable form where new data points can be added. The data is refreshed by tapping "Neuladen" and your current position can be shown with the target button.
 
